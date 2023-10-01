@@ -1,0 +1,106 @@
+
+  
+
+#about img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%; /* Optional for rounded profile pictures */
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Section styles */
+.page {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.page p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(to bottom, #2980b9, #3498db);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Colorful background for sections */
+#about { background-color: #f2f2f2; }
+#skills { background-color: #f5f5f5; }
+#projects { background-color: #f2f2f2; }
+#resume { background-color: #f5f5f5; }
+#contact { background-color: #f2f2f2; }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .page {
+        padding: 20px;
+        margin: 10px;
+    }
+}
